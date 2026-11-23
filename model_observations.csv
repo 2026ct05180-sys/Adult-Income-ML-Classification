@@ -1,0 +1,7 @@
+ML Model Name,Observation about Model Performance
+Logistic Regression,"Achieved 84.77% accuracy and 0.9020 AUC. Provides good overall classification performance, but recall is relatively moderate."
+Decision Tree,"Achieved 85.45% accuracy with an F1 score of 0.6562. Performed slightly better than Logistic Regression in accuracy, precision, F1, and MCC."
+KNN,"Achieved 83.15% accuracy and 0.6040 recall. Identified more high-income individuals than Logistic Regression and Decision Tree, but with lower precision."
+Naive Bayes,"Achieved the highest recall of 0.9242, but the lowest accuracy of 61.73%. Its low precision indicates many false positives."
+Random Forest,"Achieved the highest accuracy of 85.83%, AUC of 0.9139, precision of 0.7818, and MCC of 0.5820. It provides strong overall performance."
+Overall Winner,"Random Forest is selected as the overall winner because it achieved the highest accuracy, AUC, precision, and MCC, with a competitive F1 score. However, its recall is lower than that of other models."
